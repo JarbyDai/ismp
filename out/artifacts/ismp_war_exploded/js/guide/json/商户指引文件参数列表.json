@@ -1,0 +1,29 @@
+{
+    "参数列表": [
+        {"列表":["basicInfo字段为企业提供基本资料","inputInfo为企业填写资料","annexInfo为协议及附件明细"]},
+        {"basicInfo字段":[
+            {
+                "id": "文档序号",
+                "docName": "文档/文件名",
+                "docAmount": "文件文档数量",
+                "isRequired": "是否必须，true为必须，false为可选",
+                "seal": "公章要求，若无，请留空",
+                "imgName": "图片名称，由图片名的每个字的拼音首字母组成，请提供.jpg格式图片",
+                "desc": "说明描述，若无说明，请留空"
+            }
+        ]},
+        {"inputInfo参数":[
+            {
+                "相同参数":"所有的asicInfo字段",
+                "不同参数":"docUrl",
+                "docUrl": "下载路径，只需填入文件名拼音简写"
+            }
+        ]},{"annexInfo参数":[
+            {
+                "相同参数":"所有的inputInfo字段",
+                "不同参数":"isRequired",
+                "isRequired": "无isRequired参数"
+            }
+        ]}
+    ]
+}

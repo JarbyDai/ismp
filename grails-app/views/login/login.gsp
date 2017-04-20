@@ -3,11 +3,11 @@
 %{--<%@ page import="ismp.GetRandom" %>
 <%@ page import="javax.servlet.http.Cookie" %> --}%
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="layout" content="main" />
-    <title>合利宝商户服务-登录</title>
+    <title><g:message code="login.title"></g:message> </title>
     <link href="${resource(dir: 'css', file: 'login.css')}?t=${new Date().getTime()}" rel="stylesheet" type="text/css"/>
     <link href="${resource(dir: 'css', file: 'publicStyle.css')}?t=${new Date().getTime()}" rel="stylesheet" type="text/css"/>
 %{--    <script charset="utf-8" src="${resource(dir: 'js', file: 'arale.js')}?t=${new Date().getTime()}"></script>
@@ -75,9 +75,14 @@
 </head>
 
 <body onload="">
-language:<input type="button" value="中文" onclick="location='?lang=zh_CN';">
-<input type="button" value="English" onclick="location='?lang=en';">
-<div class="login_top txtRight"><div class="login_topcnt"><!--登录 - 注册 | 合利宝首页 | --><a style="color:#fff;" href="http://www.helipay.com/index.html" target="_blank"><g:message code="login.officialWebsite"></g:message> </a> | <g:message code="login.serviceLine"/>：4000-966-263</div>
+
+<div class="login_top txtRight">
+    <div class="login_topcnt"><!--登录 - 注册 | 合利宝首页 | -->
+        <a style="color:#fff;" href="http://www.helipay.com/index.html" target="_blank"><g:message code="login.officialWebsite"></g:message> </a> | <g:message code="login.serviceLine"/>：4000-966-263
+
+        language:<input type="button" value="中文" onclick="location='?lang=zh_CN';">
+        <input type="button" value="English" onclick="location='?lang=en';">
+    </div>
 </div>
 <div class="login_menu">
 	<div class="login_menucnt">

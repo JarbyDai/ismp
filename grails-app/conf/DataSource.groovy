@@ -3,6 +3,12 @@ dataSource {
     driverClassName = "org.hsqldb.jdbcDriver"
     username = "sa"
     password = ""
+    // default internationalization language setting
+    beans = {
+        localeResolver(SessionLocaleResolver) {
+            defaultLocale= new java.util.Locale('zh_CN');
+        }
+    }
 }
 hibernate {
     cache.use_second_level_cache = true

@@ -1,0 +1,158 @@
+{
+    "basicInfo": [
+        {   "id": "1",
+            "docName": "营业执照(副本)",
+            "docAmount": "3份",
+            "isRequired": "true",
+            "seal": "复印件加盖公章",
+            "imgName": "yb_yyzz",
+            "desc": "需在有效期内，且有近1年的年检记录"
+        },{
+            "id": "2",
+            "docName": "组织机构代码(副本)",
+            "docAmount": "3份",
+            "isRequired": "true",
+            "seal": "复印件加盖公章",
+            "imgName": "yb_zzjgdm",
+            "desc": ""
+        },{
+            "id": "3",
+            "docName": "国、地税登记证(副本)",
+            "docAmount": "3份",
+            "isRequired": "true",
+            "seal": "复印件加盖公章",
+            "imgName": "yb_ssdjz",
+            "desc": ""
+        },{
+            "id": "4",
+            "docName": "银行开户许可证",
+            "docAmount": "3份",
+            "isRequired": "true",
+            "seal": "复印件加盖公章",
+            "imgName": "yb_khxkz",
+            "desc": " "
+        },{
+            "id": "5",
+            "docName": "增值电信业务经营许可证",
+            "docAmount": "3份",
+            "isRequired": "false",
+            "seal": "打印件加盖公章",
+            "imgName": "yb_zzdx",
+            "desc": "从事增值电信业务必须提供"
+        },{
+            "id": "6",
+            "docName": "ICP域名备案证明",
+            "docAmount": "1份",
+            "isRequired": "false",
+            "seal": "复印件加盖公章",
+            "imgName": "yb_ymbazm",
+            "desc": "请登录政府网站打印详细页，并加盖公章"
+        },{
+            "id": "7",
+            "docName": "打印官网首页)",
+            "docAmount": "",
+            "isRequired": "false",
+            "seal": "",
+            "imgName": "yb_gwsy",
+            "desc": " "
+        },{
+            "id": "8",
+            "docName": "其他审批证明文件",
+            "docAmount": "",
+            "isRequired": "false",
+            "seal": " ",
+            "imgName": "yb_gsjj",
+            "desc": "如经营专项业务，或经营特殊业务等的政府批文"
+        },{
+            "id": "9",
+            "docName": "法定代表人身份证",
+            "docAmount": "",
+            "isRequired": "false",
+            "seal": "复印件签字",
+            "imgName": "yb_sfz",
+            "desc": "正反面的彩色扫描件或彩色照片"
+        },{
+            "id": "10",
+            "docName": "账户管理人身份证",
+            "docAmount": "",
+            "isRequired": "true",
+            "seal": "复印件加盖公章",
+            "imgName": "yb_sfz",
+            "desc": "正反面的彩色扫描件或彩色照片"
+        },{
+            "id": "11",
+            "docName": "被授权人签署人身份证",
+            "docAmount": "",
+            "isRequired": "false",
+            "seal": "",
+            "imgName": "yb_sfz",
+            "desc": "非法定代表人签署时提供"
+        },{
+            "id": "12",
+            "docName": "公司简介",
+            "docAmount": "",
+            "isRequired": "false",
+            "seal": "",
+            "imgName": "yb_gsjj",
+            "desc": " "
+        },{
+            "id": "13",
+            "docName": "交易规则、风控制度",
+            "docAmount": "",
+            "isRequired": "false",
+            "seal": "",
+            "imgName": "yb_jygz",
+            "desc": " "
+        }
+    ],"inputInfo":[
+        {
+            "id": "1",
+            "docName": "合利宝支付账户开立申请表",
+            "docUrl": "applay",
+            "downUrl":"pt_hlbzfzhklsqb",
+            "type":".xlsx",
+            "docAmount": "3份",
+            "isRequired": "true",
+            "seal": "复印件加盖公章",
+            "desc": ""
+        },{
+            "id": "2",
+            "docName": "法定代表人授权委托书",
+            "downUrl":"pt_fddbrsqwts",
+            "type":".doc",
+            "docAmount": "3份",
+            "isRequired": "false",
+            "seal": "复印件加盖公章",
+            "desc": ""
+        },{
+            "id": "3",
+            "docName": "开票信息确认函",
+            "downUrl":"pt_kpxxqrh",
+            "type":".docx",
+            "docAmount": "3份",
+            "isRequired": "true",
+            "seal": "复印件加盖公章",
+            "desc": ""
+        }
+    ],"annexInfo": [
+        {
+            "id": "1",
+            "docName": "互联网支付服务协议及附件",
+            "downUrl":"pt_hlwzffwxy",
+            "type":".docx",
+            "docAmount": "2份",
+            "seal": "一式两份加盖公章、骑缝章、签约人签字",
+            "desc": "申请网关支付需提交"
+        }
+    ],"remark1": [
+        "A.上述材料请先提供电子版，以便我司前期初审；",
+        "B.提供上述纸质材料（与电子材料须一致）时请加盖公章，多页材料请同时加盖骑缝章；",
+        "C.自然人身份证请提供正反面的彩色扫描件或彩色照片；"
+    ],"remark2": [
+        "A.上述材料请先提供电子版，以便我司前期初审；",
+        "B.提供上述纸质材料（与电子材料须一致）时请加盖公章，多页材料请同时加盖骑缝章；"
+    ],"remark3": [
+        "A.上述材料请先提供电子版，以便我司前期初审；",
+        "B.提供上述纸质材料（与电子材料须一致）时请加盖公章，多页材料请同时加盖骑缝章；"
+    ]
+}

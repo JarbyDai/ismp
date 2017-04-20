@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ismp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ismp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ismp" />
+          <element id="module-output" name="ismp-grailsPlugins" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="Grails User Library (ismp)" module-name="ismp" />
+          <element id="library" level="module" name="Grails User Library (ismp-grailsPlugins)" module-name="ismp-grailsPlugins" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ismp/web/Web" />
+      <element id="javaee-facet-resources" facet="ismp/web/GrailsWeb" />
+      <element id="javaee-facet-resources" facet="ismp-grailsPlugins/web/GrailsWeb" />
+    </root>
+  </artifact>
+</component>

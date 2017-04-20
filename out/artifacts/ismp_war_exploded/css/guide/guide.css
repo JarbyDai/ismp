@@ -1,0 +1,308 @@
+/*reset style*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.guide-container {
+	width: 70%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.patten-container {
+	position: relative;
+	padding-bottom: 5%;
+}
+.guide-tit {
+	padding: .8rem;
+	border-bottom: 1px solid #1D3F6E;
+}
+.guide-tit span {
+	font-size: 1.4rem;
+}
+.guide-tit span:nth-child(2) {
+	padding: 0 .5rem;
+}
+.guide-mode {
+	margin-top: 1.2rem;
+	display: flex;
+}
+.guide-mode li {
+	display: inline-block;
+}
+.guide-mode li:not(:first-child) {
+	margin-left: 1.2rem;
+}
+.general-business a,
+.bulk-business a,
+.person-business a{
+	/*flex style for text&&img content in center*/
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: #6F6D6D;
+	padding: 1.5rem 6rem;
+	text-align: center;
+	border: 1px solid #1D3F6E;
+	border-radius: .6rem;
+	transition: all .4s both;
+}
+.general-business a .icon-box,
+.bulk-business a .icon-box,
+.person-business a .icon-box {
+	width: 40px;
+	height: 40px;
+	max-width: 40px;
+	max-height: 40px;
+	background-size: cover;
+}
+
+.general-business a.active .icon-box {
+	background: url(../../images/guide/putong.png) center center no-repeat;
+}
+.general-business a .icon-box {
+	background: url(../../images/guide/putong-heis.png) center center no-repeat;
+}
+.general-business a:hover .icon-box {
+	background: url(../../images/guide/putong.png) center center no-repeat;
+}
+.bulk-business a.active .icon-box {
+	background: url(../../images/guide/dazong.png) center center no-repeat;
+}
+.bulk-business a .icon-box {
+	background: url(../../images/guide/dazong-heis.png) center center no-repeat;
+}
+.bulk-business a:hover .icon-box {
+	background: url(../../images/guide/dazong.png) center center no-repeat;
+}
+.person-business a.active .icon-box {
+	background: url(../../images/guide/geren.png) center center no-repeat;
+}
+.person-business a .icon-box {
+	background: url(../../images/guide/geren-heis.png) center center no-repeat;
+}
+.person-business a:hover .icon-box {
+	background: url(../../images/guide/geren.png) center center no-repeat;
+}
+.general-business a:hover,
+.bulk-business a:hover,
+.person-business a:hover {
+	color: #ffffff;
+	border-color:#34ADF6;
+	background-color: #34ADF6;
+}
+.general-business a span,
+.bulk-business a span,
+.person-business a span {
+	padding-top: .8rem;
+}
+.general-business a.active,
+.bulk-business a.active,
+.person-business a.active {
+	color: #ffffff;
+	border-color:#34ADF6;
+	background-color: #34ADF6;
+}
+
+
+.business-material {
+	margin-top: 1.4rem;
+}
+.material-tit {
+	padding: .8rem;
+	border-bottom: 1px solid #1D3F6E;
+}
+.material-tit h2 {
+	font-size: 1.2rem;
+}
+.color-red {
+	color: #ff0000;
+}
+.material-list {
+	margin-top: 1.2rem;
+	font-size: 1.4rem;
+	padding: .8rem;
+}
+.material-list ul li {
+	line-height: 2.8rem;
+	margin-top: .8rem;
+	background-color: #DAD8D8;
+}
+/*每一个li的第一个span子元素*/
+.material-list ul li span:first-child {
+	color: #ffffff;
+	/*0.7*2(padding-top&&padding-bottom)+1.4(font-size)=2.8(line-height)*/
+	padding: .7rem 1rem;
+	/*与右边文字的间隔*/
+	margin-right: .8rem;
+}
+/*第一个li*/
+.material-list ul li:nth-child(1) span:first-child {
+	background-color: #2DAAEF;
+}
+/*第二个li*/
+.material-list ul li:nth-child(2) span:first-child {
+	background-color: #EE45A1;
+}
+/*第三个li*/
+.material-list ul li:nth-child(3) span:first-child {
+	background-color: #1EAD5B;
+}
+.material-table {
+	padding: .8rem;
+}
+/*padding-right:17px，这个宽度是为了保证跟下边的
+div .table-body的滚动条保持一致，
+同时下边的表格.table-body添加了样式overflow-y:scroll;*/
+.table-head {
+	/*padding-right:17px;*/
+	background-color:#999;
+	color:#000;
+}
+.table-body {
+	width:100%;
+	min-height:120px;
+	/*max-height: 300px;*/
+	overflow-y:hidden;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.table-head table,
+.table-body table {
+	width:100%;
+}
+.table-head table a,
+.table-body table a {
+	color: #09a5ff;
+}
+.table-head table tr th {
+	text-align: center;
+	font-size: 1.4rem;
+	padding: .8rem .2rem;
+	border: 1px solid #aca;
+}
+.table-body table tr:nth-child(2n+1) {
+	background-color:#f2f2f2;
+}
+.table-body table tr td {
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	vertical-align: middle;
+	padding: 1rem .2rem;
+	text-align: center;
+	border: 1px solid #aca;
+}
+.table-body table tr td:nth-child(2) {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: left;
+}
+.table-body table tr td:last-child {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: left;
+}
+/*.table-head table tr th:last-child,*/
+/*.table-body table tr td:last-child {*/
+	/*border-right: none;*/
+/*}*/
+td.required {
+	color: #ff0000;
+}
+td.optional {
+	color: #58aa00;
+}
+td a {
+	color: #09a5ff;
+}
+.remark-box {
+	margin-top: 2rem;
+}
+.remark-box ul li {
+	font-size: 1.2rem;
+	line-height: 2.4rem;
+	margin-top: .5rem;
+}
+/*.section_box {*/
+	/*display: none;*/
+/*}*/
+/*.section_box.current {*/
+	/*display: block;*/
+/*}*/
+.viewBox {
+	display: none;
+	position: absolute;
+	padding: 1rem;
+	transition: all .8s both;
+}
+.view-link {
+	color: #09a5ff;
+}
+/*锚点样式*/
+.anchor {
+	text-decoration: none;
+	color: #000;
+}
+
+.magnify {
+	transition: all .8s both;
+}
+.tips-span {
+	color: red;
+}
+/*#pt-business {*/
+	/*display: none;*/
+/*}*/
